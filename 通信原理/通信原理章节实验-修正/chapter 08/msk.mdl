@@ -1,0 +1,1431 @@
+Model {
+  Name			  "msk"
+  Version		  5.0
+  SaveDefaultBlockParams  on
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  DataTypeOverride	  "UseLocalSettings"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Sun Jul 15 19:20:22 2007"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Daiming Qu"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Jan 07 10:30:32 2008"
+  ModelVersionFormat	  "1.%<AutoIncrement:80>"
+  ConfigurationManager	  "None"
+  SimParamPage		  "Solver"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  RTWExpressionDepthLimit 5
+  SimulationMode	  "normal"
+  Solver		  "ode45"
+  SolverMode		  "Auto"
+  StartTime		  "0.0"
+  StopTime		  "0.05"
+  MaxOrder		  5
+  MaxStep		  "auto"
+  MinStep		  "auto"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  "auto"
+  RelTol		  "1e-3"
+  AbsTol		  "auto"
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  Refine		  "1"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveTime		  on
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  on
+  OutputSaveName	  "yout"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  Decimation		  "1"
+  LimitDataPoints	  on
+  MaxDataPoints		  "1000"
+  SignalLoggingName	  "sigsOut"
+  ConsistencyChecking	  "none"
+  ArrayBoundsChecking	  "none"
+  AlgebraicLoopMsg	  "warning"
+  BlockPriorityViolationMsg "warning"
+  MinStepSizeMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  DiscreteInheritContinuousMsg "warning"
+  MultiTaskRateTransMsg	  "error"
+  SingleTaskRateTransMsg  "none"
+  CheckForMatrixSingularity "none"
+  IntegerOverflowMsg	  "warning"
+  Int32ToFloatConvMsg	  "warning"
+  ParameterDowncastMsg	  "error"
+  ParameterOverflowMsg	  "error"
+  ParameterPrecisionLossMsg "warning"
+  UnderSpecifiedDataTypeMsg "none"
+  UnnecessaryDatatypeConvMsg "none"
+  VectorMatrixConversionMsg "none"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  SfunCompatibilityCheckMsg "none"
+  RTWInlineParameters	  off
+  BlockReductionOpt	  on
+  BooleanDataType	  on
+  ConditionallyExecuteInputs on
+  ParameterPooling	  on
+  OptimizeBlockIOStorage  on
+  ZeroCross		  on
+  AssertionControl	  "UseLocalSettings"
+  ProdHWDeviceType	  "Microprocessor"
+  ProdHWWordLengths	  "8,16,32,32"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  RTWRetainRTWFile	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  TLCAssertion		  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      ShowAdditionalParam     off
+      OutDataTypeMode	      "Inherit from 'Constant value'"
+      OutDataType	      "sfix(16)"
+      ConRadixGroup	      "Use specified scaling"
+      OutScaling	      "2^0"
+    }
+    Block {
+      BlockType		      DiscretePulseGenerator
+      PulseType		      "Sample based"
+      Amplitude		      "1"
+      Period		      "2"
+      PulseWidth	      "1"
+      PhaseDelay	      "0"
+      SampleTime	      "1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      FrameConversion
+      OutFrame		      "Frame-based"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ShowAdditionalParam     off
+      ParameterDataTypeMode   "Same as input"
+      ParameterDataType	      "sfix(16)"
+      ParameterScalingMode    "Best Precision: Matrix-wise"
+      ParameterScaling	      "2^0"
+      OutDataTypeMode	      "Same as input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      PortDimensions	      "-1"
+      SampleTime	      "-1"
+      ShowAdditionalParam     off
+      LatchInput	      off
+      DataType		      "auto"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Integrator
+      ExternalReset	      "none"
+      InitialConditionSource  "internal"
+      InitialCondition	      "0"
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      ShowSaturationPort      off
+      ShowStatePort	      off
+      AbsoluteTolerance	      "auto"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      Logic
+      Operator		      "AND"
+      Inputs		      "2"
+      ShowAdditionalParam     off
+      AllPortsSameDT	      on
+      OutDataTypeMode	      "Logical (see Advanced Sim. Parameters)"
+      LogicDataType	      "uint(8)"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      Product
+      Inputs		      "2"
+      Multiplication	      "Element-wise(.*)"
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      OutDataTypeMode	      "Same as first input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      RelationalOperator
+      Operator		      ">="
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      LogicOutDataTypeMode    "Logical (see Advanced Sim. Parameters)"
+      LogicDataType	      "uint(8)"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      Rounding
+      Operator		      "floor"
+    }
+    Block {
+      BlockType		      Scope
+      Floating		      off
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Selector
+      InputType		      "Vector"
+      ElementSrc	      "Internal"
+      Elements		      "1"
+      RowSrc		      "Internal"
+      Rows		      "1"
+      ColumnSrc		      "Internal"
+      Columns		      "1"
+      InputPortWidth	      "-1"
+    }
+    Block {
+      BlockType		      "S-Function"
+      FunctionName	      "system"
+      PortCounts	      "[]"
+      SFunctionModules	      "''"
+    }
+    Block {
+      BlockType		      Sin
+      SineType		      "Time based"
+      Amplitude		      "1"
+      Bias		      "0"
+      Frequency		      "1"
+      Phase		      "0"
+      Samples		      "10"
+      Offset		      "0"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      on
+      Permissions	      "ReadWrite"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      MinMaxOverflowLogging   "UseLocalSettings"
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      OutDataTypeMode	      "Same as first input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      TransportDelay
+      DelayTime		      "1"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+      TransDelayFeedthrough   off
+    }
+    Block {
+      BlockType		      ZeroOrderHold
+      SampleTime	      "1"
+    }
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "msk"
+    Location		    [6, 81, 999, 587]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Reference
+      Name		      "Buffer"
+      Ports		      [1, 1]
+      Position		      [515, 195, 565, 245]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspbuff3/Buffer"
+      SourceType	      "Buffer"
+      N			      "2"
+      V			      "0"
+      ic		      "0"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      Position		      [405, 265, 435, 295]
+      FontName		      "@Gulim"
+      FontSize		      16
+      Value		      "-1"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      Position		      [1810, 385, 1840, 415]
+      FontName		      "Arial"
+      FontSize		      16
+      Value		      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Frame Status\nConversion"
+      Ports		      [1, 1]
+      Position		      [580, 202, 640, 238]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigattribs/Frame Status\nConversion"
+      SourceType	      "Frame Status Conversion"
+      growRefPort	      off
+      outframe		      "Sample-based"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Frame Status\nConversion1"
+      Ports		      [1, 1]
+      Position		      [2050, 187, 2110, 223]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigattribs/Frame Status\nConversion"
+      SourceType	      "Frame Status Conversion"
+      growRefPort	      off
+      outframe		      "Frame-based"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain"
+      Position		      [405, 205, 435, 235]
+      FontName		      "@Gulim"
+      FontSize		      16
+      Gain		      "2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Integer Delay"
+      Ports		      [1, 1]
+      Position		      [290, 200, 345, 240]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigops/Integer Delay"
+      SourceType	      "Integer Delay"
+      delay		      "1"
+      ic		      "0"
+      reset_popup	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Integer Delay1"
+      Ports		      [1, 1]
+      Position		      [215, 425, 270, 465]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigops/Integer Delay"
+      SourceType	      "Integer Delay"
+      delay		      "3"
+      ic		      "0"
+      reset_popup	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Integer Delay2"
+      Ports		      [1, 1]
+      Position		      [215, 515, 270, 555]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigops/Integer Delay"
+      SourceType	      "Integer Delay"
+      delay		      "7"
+      ic		      "0"
+      reset_popup	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Integer Delay4"
+      Ports		      [1, 1]
+      Position		      [2250, 185, 2305, 225]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspsigops/Integer Delay"
+      SourceType	      "Integer Delay"
+      delay		      "1"
+      ic		      "0"
+      reset_popup	      "None"
+    }
+    Block {
+      BlockType		      Integrator
+      Name		      "Integrator"
+      Ports		      [2, 1]
+      Position		      [1645, 152, 1695, 188]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      ExternalReset	      "rising"
+    }
+    Block {
+      BlockType		      Integrator
+      Name		      "Integrator1"
+      Ports		      [2, 1]
+      Position		      [1645, 287, 1695, 323]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      ExternalReset	      "rising"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Matrix\nConcatenation"
+      Ports		      [2, 1]
+      Position		      [1960, 177, 2030, 228]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "simulink/Math\nOperations/Matrix\nConcatenation"
+      SourceType	      "Matrix Concatenation"
+      numInports	      "2"
+      catMethod		      "Vertical"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Msk Wave"
+      Ports		      [2]
+      Position		      [1215, 417, 1245, 453]
+      FontName		      "@Gulim"
+      FontSize		      16
+      Location		      [32, 88, 779, 438]
+      Open		      on
+      NumInputPorts	      "2"
+      ZoomMode		      "xonly"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		SelectedSignals
+	axes1			""
+	axes2			""
+      }
+      YMin		      "-5~-2"
+      YMax		      "5~2"
+      DataFormat	      "StructureWithTime"
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product"
+      Ports		      [2, 1]
+      Position		      [1020, 151, 1065, 184]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product1"
+      Ports		      [2, 1]
+      Position		      [1020, 266, 1065, 299]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product2"
+      Ports		      [2, 1]
+      Position		      [930, 156, 975, 189]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product3"
+      Ports		      [2, 1]
+      Position		      [930, 256, 975, 289]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product4"
+      Ports		      [2, 1]
+      Position		      [1350, 146, 1395, 179]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product5"
+      Ports		      [2, 1]
+      Position		      [1350, 266, 1395, 299]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product6"
+      Ports		      [2, 1]
+      Position		      [1460, 141, 1505, 174]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product7"
+      Ports		      [2, 1]
+      Position		      [1460, 276, 1505, 309]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      DiscretePulseGenerator
+      Name		      "Pulse\nGenerator1"
+      Position		      [1565, 353, 1610, 387]
+      FontName		      "@Gulim"
+      FontSize		      16
+      PulseType		      "Time based"
+      Period		      "0.002"
+      PulseWidth	      "50"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Random Integer\nGenerator"
+      Ports		      [0, 1]
+      Position		      [35, 181, 120, 239]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "commrandsrc2/Random Integer\nGenerator"
+      SourceType	      "Random Integer Generator"
+      mul		      "2"
+      seed		      "37"
+      Ts		      "1/1000"
+      frameBased	      off
+      sampPerFrame	      "1"
+      orient		      off
+    }
+    Block {
+      BlockType		      RelationalOperator
+      Name		      "Relational\nOperator1"
+      Position		      [1880, 162, 1910, 193]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      Operator		      ">"
+      ShowAdditionalParam     on
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      RelationalOperator
+      Name		      "Relational\nOperator2"
+      Position		      [1880, 297, 1910, 328]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      Operator		      ">"
+      ShowAdditionalParam     on
+      InputSameDT	      off
+    }
+    Block {
+      BlockType		      Selector
+      Name		      "Selector"
+      Ports		      [1, 1]
+      Position		      [670, 160, 745, 200]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputType		      "Matrix"
+      Elements		      "[1]"
+      InputPortWidth	      "2"
+    }
+    Block {
+      BlockType		      Selector
+      Name		      "Selector1"
+      Ports		      [1, 1]
+      Position		      [670, 246, 745, 284]
+      FontName		      "@Gulim"
+      FontSize		      16
+      InputType		      "Matrix"
+      Elements		      "[2]"
+      Rows		      "2"
+      InputPortWidth	      "2"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave"
+      Position		      [865, 280, 895, 310]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "pi/2*1000"
+      Phase		      "-3/2*pi"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave1"
+      Position		      [865, 135, 895, 165]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "pi/2*1000"
+      Phase		      "-3/2*pi+pi/2"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave2"
+      Position		      [945, 315, 975, 345]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "1000*2*pi"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave3"
+      Position		      [945, 110, 975, 140]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "1000*2*pi"
+      Phase		      "pi/2"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave4"
+      Position		      [1285, 310, 1315, 340]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "1000*2*pi"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave5"
+      Position		      [1290, 100, 1320, 130]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "1000*2*pi"
+      Phase		      "pi/2"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave6"
+      Position		      [1380, 330, 1410, 360]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "pi/2*1000"
+      Phase		      "-3/2*pi"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sin
+      Name		      "Sine Wave7"
+      Position		      [1370, 90, 1400, 120]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      SineType		      "Time based"
+      Frequency		      "pi/2*1000"
+      Phase		      "-3/2*pi+pi/2"
+      SampleTime	      "1/100000"
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum"
+      Ports		      [2, 1]
+      Position		      [1100, 215, 1120, 235]
+      ShowName		      off
+      FontName		      "@Gulim"
+      FontSize		      16
+      IconShape		      "round"
+      Inputs		      "|++"
+      InputSameDT	      off
+      OutDataTypeMode	      "Inherit via internal rule"
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum1"
+      Ports		      [2, 1]
+      Position		      [460, 210, 480, 230]
+      ShowName		      off
+      FontName		      "@Gulim"
+      FontSize		      16
+      IconShape		      "round"
+      Inputs		      "|++"
+      InputSameDT	      off
+      OutDataTypeMode	      "Inherit via internal rule"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Transport\nDelay"
+      Position		      [810, 250, 840, 280]
+      FontName		      "@Gulim"
+      FontSize		      16
+      DelayTime		      "0.001"
+      BufferSize	      "10"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Transport\nDelay1"
+      Position		      [1560, 280, 1590, 310]
+      FontName		      "@Gulim"
+      FontSize		      16
+      DelayTime		      "0.001001"
+      BufferSize	      "10"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Transport\nDelay2"
+      Position		      [1745, 290, 1775, 320]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      DelayTime		      "0.00000001"
+      BufferSize	      "10"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Transport\nDelay3"
+      Position		      [1745, 155, 1775, 185]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      DelayTime		      "0.00000001"
+      BufferSize	      "10"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Transport\nDelay4"
+      Position		      [1565, 145, 1595, 175]
+      FontName		      "@Gulim"
+      FontSize		      16
+      DelayTime		      "0.002"
+      BufferSize	      "10"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Unbuffer"
+      Ports		      [1, 1]
+      Position		      [2135, 181, 2185, 229]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SourceBlock	      "dspbuff3/Unbuffer"
+      SourceType	      "Unbuffer"
+      ic		      "0"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "XOR\nExclusive OR"
+      Ports		      [2, 1]
+      Position		      [225, 200, 265, 240]
+      FontName		      "@Gulim"
+      FontSize		      16
+      Operator		      "XOR"
+      ShowAdditionalParam     on
+      AllPortsSameDT	      off
+      OutDataTypeMode	      "Specify via dialog"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "XOR\nExclusive OR1"
+      Ports		      [2, 1]
+      Position		      [2350, 235, 2390, 275]
+      FontName		      "@Gulim"
+      FontSize		      16
+      Operator		      "XOR"
+      ShowAdditionalParam     on
+      AllPortsSameDT	      off
+      OutDataTypeMode	      "Specify via dialog"
+    }
+    Block {
+      BlockType		      ZeroOrderHold
+      Name		      "Zero-Order\nHold1"
+      Position		      [1800, 151, 1835, 189]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SampleTime	      "0.002"
+    }
+    Block {
+      BlockType		      ZeroOrderHold
+      Name		      "Zero-Order\nHold2"
+      Position		      [1800, 286, 1835, 324]
+      FontName		      "@Gulim"
+      FontSize		      16
+      SampleTime	      "0.002"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "scope3"
+      Ports		      [2]
+      Position		      [2480, 247, 2510, 283]
+      NamePlacement	      "alternate"
+      FontName		      "@Gulim"
+      FontSize		      16
+      Location		      [6, 166, 870, 708]
+      Open		      off
+      NumInputPorts	      "2"
+      ZoomMode		      "xonly"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		SelectedSignals
+	axes1			""
+	axes2			""
+      }
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SaveName		      "ScopeData1"
+      DataFormat	      "StructureWithTime"
+    }
+    Line {
+      SrcBlock		      "Product2"
+      SrcPort		      1
+      Points		      [0, 0; 5, 0]
+      Branch {
+	DstBlock		"Product"
+	DstPort			2
+      }
+      Branch {
+	Points			[0, -5]
+      }
+    }
+    Line {
+      SrcBlock		      "Product3"
+      SrcPort		      1
+      DstBlock		      "Product1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Transport\nDelay"
+      SrcPort		      1
+      DstBlock		      "Product3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sum"
+      SrcPort		      1
+      Points		      [60, 0; 10, 0]
+      Branch {
+	Points			[95, 0]
+	Branch {
+	  Points		  [0, 50]
+	  DstBlock		  "Product5"
+	  DstPort		  1
+	}
+	Branch {
+	  Points		  [0, -55]
+	  DstBlock		  "Product4"
+	  DstPort		  2
+	}
+      }
+      Branch {
+	Points			[0, 200]
+	DstBlock		"Msk Wave"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Integrator"
+      SrcPort		      1
+      DstBlock		      "Transport\nDelay3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Integrator1"
+      SrcPort		      1
+      DstBlock		      "Transport\nDelay2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "XOR\nExclusive OR1"
+      SrcPort		      1
+      DstBlock		      "scope3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Integer Delay2"
+      SrcPort		      1
+      Points		      [2165, 0; 0, -260]
+      DstBlock		      "scope3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Integer Delay1"
+      SrcPort		      1
+      DstBlock		      "Msk Wave"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "XOR\nExclusive OR"
+      SrcPort		      1
+      DstBlock		      "Integer Delay"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain"
+      SrcPort		      1
+      DstBlock		      "Sum1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sine Wave"
+      SrcPort		      1
+      Points		      [10, 0; 0, -15]
+      DstBlock		      "Product3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Sine Wave3"
+      SrcPort		      1
+      Points		      [10, 0; 0, 35]
+      DstBlock		      "Product"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sine Wave2"
+      SrcPort		      1
+      Points		      [10, 0; 0, -40]
+      DstBlock		      "Product1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Product4"
+      SrcPort		      1
+      DstBlock		      "Product6"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Product5"
+      SrcPort		      1
+      DstBlock		      "Product7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sine Wave4"
+      SrcPort		      1
+      Points		      [5, 0; 0, -35]
+      DstBlock		      "Product5"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Sine Wave5"
+      SrcPort		      1
+      Points		      [10, 0]
+      DstBlock		      "Product4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sine Wave7"
+      SrcPort		      1
+      Points		      [25, 0; 0, 45]
+      DstBlock		      "Product6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sine Wave6"
+      SrcPort		      1
+      Points		      [10, 0; 0, -45]
+      DstBlock		      "Product7"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Pulse\nGenerator1"
+      SrcPort		      1
+      Points		      [10, 0; 0, -55]
+      Branch {
+	Points			[0, -135]
+	DstBlock		"Integrator"
+	DstPort			2
+      }
+      Branch {
+	DstBlock		"Integrator1"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "Zero-Order\nHold2"
+      SrcPort		      1
+      Points		      [20, 0]
+      DstBlock		      "Relational\nOperator2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Zero-Order\nHold1"
+      SrcPort		      1
+      Points		      [20, 0]
+      DstBlock		      "Relational\nOperator1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Integer Delay4"
+      SrcPort		      1
+      Points		      [20, 0; 0, 40]
+      DstBlock		      "XOR\nExclusive OR1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Random Integer\nGenerator"
+      SrcPort		      1
+      Points		      [0, 0; 30, 0]
+      Branch {
+	Points			[0, 0; 0, 235]
+	DstBlock		"Integer Delay1"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 0; 0, 325]
+	DstBlock		"Integer Delay2"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"XOR\nExclusive OR"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Integer Delay"
+      SrcPort		      1
+      Points		      [0, 0; 15, 0]
+      Branch {
+	Points			[0, 70; -175, 0; 0, -60]
+	DstBlock		"XOR\nExclusive OR"
+	DstPort			2
+      }
+      Branch {
+	DstBlock		"Gain"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Sum1"
+      SrcPort		      1
+      DstBlock		      "Buffer"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Selector1"
+      SrcPort		      1
+      DstBlock		      "Transport\nDelay"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Buffer"
+      SrcPort		      1
+      DstBlock		      "Frame Status\nConversion"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Frame Status\nConversion"
+      SrcPort		      1
+      Points		      [0, 0; 10, 0]
+      Branch {
+	DstBlock		"Selector"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"Selector1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Selector"
+      SrcPort		      1
+      DstBlock		      "Product2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Product"
+      SrcPort		      1
+      Points		      [5, 0; 0, 55]
+      DstBlock		      "Sum"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Product1"
+      SrcPort		      1
+      Points		      [40, 0]
+      DstBlock		      "Sum"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Sine Wave1"
+      SrcPort		      1
+      Points		      [10, 0; 0, 15]
+      DstBlock		      "Product2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Product7"
+      SrcPort		      1
+      DstBlock		      "Transport\nDelay1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Transport\nDelay1"
+      SrcPort		      1
+      DstBlock		      "Integrator1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Product6"
+      SrcPort		      1
+      DstBlock		      "Transport\nDelay4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Transport\nDelay4"
+      SrcPort		      1
+      DstBlock		      "Integrator"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Transport\nDelay2"
+      SrcPort		      1
+      DstBlock		      "Zero-Order\nHold2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Transport\nDelay3"
+      SrcPort		      1
+      DstBlock		      "Zero-Order\nHold1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Frame Status\nConversion1"
+      SrcPort		      1
+      DstBlock		      "Unbuffer"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Matrix\nConcatenation"
+      SrcPort		      1
+      DstBlock		      "Frame Status\nConversion1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Relational\nOperator1"
+      SrcPort		      1
+      Points		      [30, 0]
+      DstBlock		      "Matrix\nConcatenation"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      Points		      [10, 0; 0, -80]
+      Branch {
+	Points			[0, -135]
+	DstBlock		"Relational\nOperator1"
+	DstPort			2
+      }
+      Branch {
+	Points			[5, 0]
+	DstBlock		"Relational\nOperator2"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "Relational\nOperator2"
+      SrcPort		      1
+      Points		      [20, 0; 0, -100]
+      DstBlock		      "Matrix\nConcatenation"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Unbuffer"
+      SrcPort		      1
+      Points		      [0, 0; 30, 0]
+      Branch {
+	DstBlock		"Integer Delay4"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 60]
+	DstBlock		"XOR\nExclusive OR1"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      Points		      [30, 0]
+      DstBlock		      "Sum1"
+      DstPort		      2
+    }
+    Annotation {
+      Name		      "MSK Signal"
+      Position		      [1188, 204]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "MSK Modulation"
+      Position		      [688, 74]
+      FontName		      "Arial"
+      FontSize		      24
+      FontWeight	      "bold"
+    }
+    Annotation {
+      Name		      "serial-to-parallel"
+      Position		      [633, 339]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "delay Tb"
+      Position		      [823, 234]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "{0,1} to {-1,+1}"
+      Position		      [443, 339]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "differential coding"
+      Position		      [283, 314]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "modulation"
+      Position		      [978, 384]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "demodulation"
+      Position		      [1403, 409]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "delay 2Tb"
+      Position		      [1578, 129]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "integrators"
+      Position		      [1638, 434]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "delay Tb"
+      Position		      [1578, 264]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "MSK Demodulation"
+      Position		      [1583, 69]
+      FontName		      "Arial"
+      FontSize		      24
+      FontWeight	      "bold"
+    }
+    Annotation {
+      Name		      "sampling and decision"
+      Position		      [1843, 444]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "parallel-to-serial"
+      Position		      [2088, 294]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "differential decoding"
+      Position		      [2323, 339]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "source data"
+      Position		      [78, 299]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "compare \nsource \nand \nresult \ndata"
+      Position		      [2498, 354]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "I"
+      Position		      [758, 144]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+    Annotation {
+      Name		      "Q"
+      Position		      [758, 224]
+      FontName		      "Arial"
+      FontSize		      20
+    }
+  }
+}
