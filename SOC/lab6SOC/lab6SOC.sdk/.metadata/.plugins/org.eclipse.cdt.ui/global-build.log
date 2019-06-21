@@ -1,0 +1,488 @@
+13:17:29 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+make: Nothing to be done for `all'.
+13:18:57 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+13:19:10 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+13:20:07 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+13:20:52 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+13:21:01 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+13:45:24 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+04:03:52 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:04:19 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:04:21 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+04:04:38 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:04:39 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+04:40:35 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27212	   1248	  22676	  51136	   c7c0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+04:40:41 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:40:42 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+04:42:28 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:159:6: error: too few arguments to function 'delay'
+    } else {
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: declared here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: At top level:
+../src/Pingpong_template_2019spring.c:256:6: error: conflicting types for 'delay'
+  }
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: In function 'delay':
+../src/Pingpong_template_2019spring.c:257:2: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+ }
+  ^
+../src/Pingpong_template_2019spring.c:257:2: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+../src/Pingpong_template_2019spring.c:258:3: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+ 
+   ^
+../src/Pingpong_template_2019spring.c:259:2: error: expected expression before '}' token
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:42:33 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:159:6: error: too few arguments to function 'delay'
+    } else {
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: declared here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: At top level:
+../src/Pingpong_template_2019spring.c:256:6: error: conflicting types for 'delay'
+ 
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: In function 'delay':
+../src/Pingpong_template_2019spring.c:257:2: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   }
+  ^
+../src/Pingpong_template_2019spring.c:257:2: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+../src/Pingpong_template_2019spring.c:258:3: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+  }
+   ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:42:50 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:159:6: error: too few arguments to function 'delay'
+    } else {
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: declared here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: At top level:
+../src/Pingpong_template_2019spring.c:256:6: error: conflicting types for 'delay'
+ 
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: In function 'delay':
+../src/Pingpong_template_2019spring.c:257:2: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   }
+  ^
+../src/Pingpong_template_2019spring.c:257:2: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+../src/Pingpong_template_2019spring.c:258:3: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+  }
+   ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:42:58 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:159:6: error: too few arguments to function 'delay'
+    } else {
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: declared here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: At top level:
+../src/Pingpong_template_2019spring.c:256:6: error: conflicting types for 'delay'
+   for(int k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: In function 'delay':
+../src/Pingpong_template_2019spring.c:258:10: error: redeclaration of 'i' with no linkage
+   }
+          ^
+../src/Pingpong_template_2019spring.c:257:8: note: previous declaration of 'i' was here
+ 
+        ^
+../src/Pingpong_template_2019spring.c:258:2: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   }
+  ^
+../src/Pingpong_template_2019spring.c:258:2: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+../src/Pingpong_template_2019spring.c:259:3: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+  }
+   ^
+../src/Pingpong_template_2019spring.c:257:6: warning: unused variable 'k' [-Wunused-variable]
+ 
+      ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:43:06 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:159:6: error: too few arguments to function 'delay'
+    } else {
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: declared here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c: At top level:
+../src/Pingpong_template_2019spring.c:256:6: error: conflicting types for 'delay'
+   for(k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:43:26 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c:14:6: error: conflicting types for 'delay'
+ void delay();
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c:257:6: error: conflicting types for 'delay'
+   for(k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:43:41 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c:14:6: error: conflicting types for 'delay'
+ void delay();
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c:257:6: error: conflicting types for 'delay'
+   for(k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:44:02 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c:14:6: error: conflicting types for 'delay'
+ void delay(void);
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c:257:6: error: conflicting types for 'delay'
+   for(k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:44:07 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c:14:6: error: conflicting types for 'delay'
+ void delay(void);
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+../src/Pingpong_template_2019spring.c:257:6: error: conflicting types for 'delay'
+   for(k=0; k<1000; k ++){
+      ^
+../src/Pingpong_template_2019spring.c:11:5: note: previous declaration of 'delay' was here
+ int delay(int i);
+     ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+04:45:17 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27212	   1248	  22676	  51136	   c7c0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+04:45:25 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27212	   1248	  22676	  51136	   c7c0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+04:45:32 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:45:32 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+04:45:55 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+04:45:56 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c:25:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
+04:53:27 **** Auto Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+00:49:06 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+00:49:07 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D
