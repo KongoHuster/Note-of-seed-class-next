@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 04 11:35:45 2019
+# Process ID: 464
+# Log file: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/vivado.log
+# Journal file: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Labs2019springHUST/OrginalPongZyboSpring2019' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/XLInux/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 710.199 ; gain = 160.742
+rupdate_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:41:04 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:41:04 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:41:36 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:41:36 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:43:43 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:43:43 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:44:52 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:44:52 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+open_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Jun 04 11:46:54 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210279654348A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210279654348A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+set_property PROGRAM.FILE {C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/pongZybo2019spring.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtools 27-3175] Target jsn-Zybo-210279654348A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+ERROR: [Labtools 27-3175] Target jsn-Zybo-210279654348A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A is already closed
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210279654348A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210279654348A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+set_property PROGRAM.FILE {C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/pongZybo2019spring.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtools 27-3175] Target jsn-Zybo-210279654348A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:48:40 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:48:41 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+ERROR: [Labtools 27-3175] Target jsn-Zybo-210279654348A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Zybo-210279654348A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost:3121/xilinx_tcf/Digilent/210279654348A is already closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:49:29 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:49:29 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Jun 04 11:49:57 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/synth_1/runme.log
+[Tue Jun 04 11:49:57 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/易子闳/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 04 11:50:28 2019...

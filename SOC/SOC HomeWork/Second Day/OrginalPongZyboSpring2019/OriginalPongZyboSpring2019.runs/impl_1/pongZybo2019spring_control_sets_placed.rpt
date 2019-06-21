@@ -1,0 +1,64 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 05 03:56:18 2019
+| Host         : DESKTOP-VUIUF3J running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file pongZybo2019spring_control_sets_placed.rpt
+| Design       : pongZybo2019spring
+| Device       : xc7z010
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    11 |
+| Minimum Number of register sites lost to control set restrictions |    45 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            6 |
+| No           | No                    | Yes                    |              12 |            6 |
+| No           | Yes                   | No                     |              10 |            2 |
+| Yes          | No                    | No                     |              21 |            7 |
+| Yes          | No                    | Yes                    |              10 |            4 |
+| Yes          | Yes                   | No                     |              27 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+-------------------------------------+----------------------------------+------------------+----------------+
+|   Clock Signal   |            Enable Signal            |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++------------------+-------------------------------------+----------------------------------+------------------+----------------+
+|  Clock_IBUF_BUFG |                                     |                                  |                1 |              1 |
+|  clk25           | game_inst/SecondNumber[3]_i_1_n_0   | game_inst/FirstNumber[3]_i_1_n_0 |                1 |              4 |
+|  clk25           | game_inst/FirstNumber[3]_i_2_n_0    | game_inst/FirstNumber[3]_i_1_n_0 |                1 |              4 |
+|  clk25           | game_inst/paddlePosition[8]_i_1_n_0 |                                  |                2 |              7 |
+|  clk25           | game_inst/SecondSevenReg            |                                  |                2 |              7 |
+|  clk25           | game_inst/FirstSevenReg             |                                  |                3 |              7 |
+|  clk25           |                                     |                                  |                5 |             10 |
+|  clk25           | video_timer_inst/load               | Reset_IBUF                       |                4 |             10 |
+|  Clock_IBUF_BUFG |                                     | ClockUnit/baud_count[9]_i_1_n_0  |                2 |             10 |
+|  clk25           |                                     | Reset_IBUF                       |                6 |             12 |
+|  clk25           | video_timer_inst/endOfFrame         | game_inst/ballXdir7_out          |                6 |             19 |
++------------------+-------------------------------------+----------------------------------+------------------+----------------+
+
+

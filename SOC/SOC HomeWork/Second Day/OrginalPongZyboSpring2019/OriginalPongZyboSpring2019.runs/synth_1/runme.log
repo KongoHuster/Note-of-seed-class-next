@@ -1,0 +1,340 @@
+
+*** Running vivado
+    with args -log pongZybo2019spring.vds -m64 -mode batch -messageDb vivado.pb -notrace -source pongZybo2019spring.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source pongZybo2019spring.tcl -notrace
+Command: synth_design -top pongZybo2019spring -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 241.016 ; gain = 64.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pongZybo2019spring' [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/PongZybo2019spring.v:68]
+	Parameter OutClockFrequency bound to: 10'b0000011001 
+	Parameter InputClockFrequency bound to: 10'b0001111101 
+INFO: [Synth 8-638] synthesizing module 'ClockGenerator' [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/ClockGenerator.v:8]
+INFO: [Synth 8-256] done synthesizing module 'ClockGenerator' (1#1) [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/ClockGenerator.v:8]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Users/XLInux/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [C:/Users/XLInux/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'video_timer' [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/PongZybo2019spring.v:16]
+INFO: [Synth 8-256] done synthesizing module 'video_timer' (3#1) [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/PongZybo2019spring.v:16]
+INFO: [Synth 8-638] synthesizing module 'gameZybo' [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/GameZybo.v:11]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/GameZybo.v:153]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/GameZybo.v:238]
+INFO: [Synth 8-256] done synthesizing module 'gameZybo' (4#1) [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/GameZybo.v:11]
+INFO: [Synth 8-256] done synthesizing module 'pongZybo2019spring' (5#1) [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/sources_1/imports/OrginalPongZyboSpring2019/PongZybo2019spring.v:68]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 275.328 ; gain = 98.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 275.328 ; gain = 98.793
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/constrs_1/imports/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019xdc.xdc]
+Finished Parsing XDC File [C:/Users/yizii/Desktop/yzh/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019.srcs/constrs_1/imports/OrginalPongZyboSpring2019/OriginalPongZyboSpring2019xdc.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 572.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 8     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ClockGenerator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module video_timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module gameZybo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 5     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design pongZybo2019spring has port red[2] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port red[1] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port red[0] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port green[3] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port green[2] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port green[1] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port green[0] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port blue[1] driven by constant 0
+WARNING: [Synth 8-3917] design pongZybo2019spring has port blue[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 572.137 ; gain = 395.602
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (p_0_out_inferred/\game_inst/paddlePosition_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (p_0_out_inferred/\game_inst/paddlePosition_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\game_inst/paddlePosition_reg[1] ) is unused and will be removed from module pongZybo2019spring.
+WARNING: [Synth 8-3332] Sequential element (\game_inst/paddlePosition_reg[0] ) is unused and will be removed from module pongZybo2019spring.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 572.137 ; gain = 395.602
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 572.137 ; gain = 395.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    21|
+|3     |LUT1   |     8|
+|4     |LUT2   |    55|
+|5     |LUT3   |    34|
+|6     |LUT4   |    59|
+|7     |LUT5   |    42|
+|8     |LUT6   |    88|
+|9     |FDCE   |    22|
+|10    |FDRE   |    61|
+|11    |FDSE   |     8|
+|12    |IBUF   |     4|
+|13    |OBUF   |    18|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+---------------+------+
+|      |Instance           |Module         |Cells |
++------+-------------------+---------------+------+
+|1     |top                |               |   422|
+|2     |  ClockUnit        |ClockGenerator |    26|
+|3     |  game_inst        |gameZybo       |   212|
+|4     |  video_timer_inst |video_timer    |   159|
++------+-------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 396.035
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 572.570 ; gain = 87.551
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 572.570 ; gain = 396.035
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 572.570 ; gain = 384.418
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 572.570 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 05 03:55:50 2019...
